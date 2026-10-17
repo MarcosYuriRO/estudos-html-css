@@ -1,0 +1,39 @@
+/* Seletor Geral */ * {
+    margin: 0;
+}
+
+/* seletor de uma tag */.divPai {
+    background-color: #c6c6c6;
+    /* vh: view height. Pega 100% da altura da tela  do usuário */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Seletor de uma Classe */ .card {
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+    /* Alinha os elementos dentro da tag */
+    display: flex;
+    /* Controla a direção para ficar um elemento sobre o outro */
+    /* Se eu colocasse o valor 'row', ficaria um ao lado do outro */
+    flex-direction: column;
+    /* coloca os itens horizontalmente centralizados */
+    align-items: center;
+    /* coloca  os elementos verticalmente centralizados */
+    justify-content: center;
+
+}
+
+button {
+    background-color: green;
+    color: white;
+    /* Espaçamento Interno. Distância da borda do botão com o texto dentro dele */
+    padding: 10;
+    border-radius: 16px;
+    border: none;
+}
